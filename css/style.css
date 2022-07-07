@@ -37,7 +37,27 @@ body {
   border-radius: 25px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 25px;
+  text-align: center;
+}
+
+.container img {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container__result {
+  margin-top: 25px;
+  background-color: var(--colorDarkBlue);
+  width: 70%;
+  border-radius: 15px;
+  padding: 7px 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--colorOrange);
 }
 
 h1 {
